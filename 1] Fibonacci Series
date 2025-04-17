@@ -1,0 +1,23 @@
+// Question - Create a class to find the Fibonacci series up to a given number in Apex.
+
+public class Fibonacci_Series {
+    public void main(){
+        integer f0 = 0;
+        integer f1 = 1;
+        integer fn;
+        for(integer i = 1; i <= 5; i++){
+            fn = f1 + f0;
+            f0 = f1;
+            f1 = fn;
+        }
+        System.debug(fn);
+    
+    }
+    
+}
+
+// -----------------o/p code--------------------
+/*
+Fibonacci_Series newInstance = new Fibonacci_Series();
+newInstance.main();
+*/
